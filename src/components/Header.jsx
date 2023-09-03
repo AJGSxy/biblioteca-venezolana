@@ -1,7 +1,6 @@
 import React from "react";
-export default Header;
 
-const Header = () => {
+export const Header = () => {
   return (
     <header>
       <hi>Biblioteca</hi>
