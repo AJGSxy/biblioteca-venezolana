@@ -1,13 +1,17 @@
-.Header {
+.header {
   background-color: #2d2a27;
   color: white;
   width: auto;
   text-align: left;
   height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
 }
 
-.Menu {
+.menu {
   text-align: right;
   color: blue;
-  align-items: center;
 }
