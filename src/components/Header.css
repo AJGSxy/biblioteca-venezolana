@@ -1,0 +1,13 @@
+.Header {
+  background-color: #2d2a27;
+  color: white;
+  width: auto;
+  text-align: left;
+  height: 75px;
+}
+
+.Menu {
+  text-align: right;
+  color: blue;
+  align-items: center;
+}
