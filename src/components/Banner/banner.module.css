@@ -1,14 +1,11 @@
 .header {
-  background-color: #2d2a27;
+  background-color: #9b7c52;
   color: white;
   width: auto;
-  text-align: left;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap;
-  padding: 0 10px;
+  text-align: center;
+  height: 20px;
+  font-family: sans-serif;
+  padding: 10px 10px;
 }
 
 .menu {
