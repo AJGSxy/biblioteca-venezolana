@@ -1,4 +1,4 @@
-.header {
+.banner {
   background-color: #9b7c52;
   color: white;
   width: auto;
@@ -6,9 +6,4 @@
   height: 20px;
   font-family: sans-serif;
   padding: 10px 10px;
-}
-
-.menu {
-  text-align: right;
-  color: blue;
 }

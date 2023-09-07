@@ -1,0 +1,42 @@
+/* .body {
+  background-image: url(https://trello.com/1/cards/649007df0dfb1ff6b5d244ea/attachments/649009e58fcbbf7ae5d698d6/previews/649009e88fcbbf7ae5d69dda/download/pexels-stanislav-kondratiev-2908984.jpg);
+  color: white;
+  width: 100px;
+  text-align: center;
+  height: 20px;
+  font-family: sans-serif;
+  padding: 10px 10px;
+} */
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./../../../public/body.jpg");
+  /* background-image: url("https://trello.com/1/cards/649007df0dfb1ff6b5d244ea/attachments/649009e58fcbbf7ae5d698d6/previews/649009e88fcbbf7ae5d69dda/download/pexels-stanislav-kondratiev-2908984.jpg"); */
+  background-size: cover; /* This will make the background image cover the entire body */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Keep the background image fixed while scrolling */
+  height: calc(100vh - 115px);
+}
+
+.firstContent {
+  color: white;
+  width: 100%;
+  font-family: "Roboto";
+}
+
+.mainTitle {
+  color: white;
+
+  font-size: 65px;
+}
+
+.search {
+  width: 260px;
+  border: 1px solid white;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("/assets/search.svg") no-repeat 13px;
+}
