@@ -34,8 +34,8 @@
 }
 
 .search {
-  width: 260px;
-  border: 1px solid white;
+  width: 1000px;
+  border: 1px solid beige;
   display: block;
   padding: 9px 4px 9px 40px;
   background: transparent url("/assets/search.svg") no-repeat 13px;

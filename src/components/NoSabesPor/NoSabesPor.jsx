@@ -1,3 +1,8 @@
+import styles from "./nosabespor.module.css";
 export const NoSabesPor = () => {
-  return <section>Hola</section>;
+  return (
+    <section className={styles.secondB}>
+      <div>Hola</div>
+    </section>
+  );
 };

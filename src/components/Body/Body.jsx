@@ -4,7 +4,7 @@ import { NoSabesPor } from "../NoSabesPor";
 export const Body = () => {
   return (
     <section>
-      <Hero />
+      {/* <Hero /> */}
       <NoSabesPor />
     </section>
   );

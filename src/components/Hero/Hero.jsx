@@ -5,10 +5,12 @@ export const Hero = () => {
     <section className={styles.heroContainer}>
       <div className={styles.firstContent}>
         <h1 className={styles.mainTitle}>
-          Descubre todo sobre la historia de Venezuela
+          Descubre todo <br />
+          sobre la historia <br />
+          de Venezuela
         </h1>
         <input
-          // className={styles.search}
+          className={styles.search}
           type="search"
           placeholder="Escribe algún personaje, libro, hecho histórico, etc..."
         />
