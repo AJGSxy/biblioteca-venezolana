@@ -1,11 +1,11 @@
 import { Hero } from "../Hero";
-import { NoSabesPor } from "../NoSabesPor";
+import { SecondBlock } from "../secondBlock";
 
 export const Body = () => {
   return (
     <section>
       {/* <Hero /> */}
-      <NoSabesPor />
+      <SecondBlock />
     </section>
   );
 };

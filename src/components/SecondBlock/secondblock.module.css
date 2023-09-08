@@ -10,7 +10,17 @@
   background-attachment: fixed; /* Keep the background image fixed while scrolling */
   height: calc(100vh - 115px);
 }
+.parag1 {
+  color: #9b7c52;
+  font-size: 30px;
+  font-family: "OldStyle 1 HPLHS";
+}
 
+.parag2 {
+  color: #f6e4d1;
+  font-size: 45px;
+  font-family: "OldStyle 1 HPLHS";
+}
 /* .firstContent {
   color: white;
   width: 100%;

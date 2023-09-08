@@ -1,1 +1,0 @@
-export { NoSabesPor } from "./NoSabesPor";
