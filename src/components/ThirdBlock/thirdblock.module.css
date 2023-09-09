@@ -1,0 +1,33 @@
+.thirdB {
+  display: flex;
+  text-align: right;
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
+  background-image: url("./../../../public/Fondo_Bloque_3.png");
+  background-size: cover; /* This will make the background image cover the entire body */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Keep the background image fixed while scrolling */
+  height: calc(100vh - 115px);
+  flex-direction: column;
+}
+
+.thirdContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.titleEvents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 45px;
+}
+
+.commentsEvents {
+  display: flex;
+  color: white;
+  font-family: "OldStyle 1 HPLHS";
+}
