@@ -9,6 +9,7 @@
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-attachment: fixed; /* Keep the background image fixed while scrolling */
   height: calc(100vh - 115px);
+  flex-direction: column;
 }
 .parag1 {
   color: #9b7c52;
@@ -21,6 +22,58 @@
   font-size: 45px;
   font-family: "OldStyle 1 HPLHS";
 }
+
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.firstBook {
+  background-image: url("./../../../public/cesarismodemocratico.JPEG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px; /* Adjust the width to make it slightly bigger */
+  height: 400px; /* Adjust the height proportionally to maintain the aspect ratio */
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+}
+.secondBook {
+  background-image: url("./../../../public/delbuensalvaje.JPEG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px; /* Adjust the width to make it slightly bigger */
+  height: 400px; /* Adjust the height proportionally to maintain the aspect ratio */
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+}
+.thirdBook {
+  background-image: url("./../../../public/librorojo.JPEG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px; /* Adjust the width to make it slightly bigger */
+  height: 400px; /* Adjust the height proportionally to maintain the aspect ratio */
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+}
+.fourthBook {
+  background-image: url("./../../../public/historiagrafica.JPEG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px; /* Adjust the width to make it slightly bigger */
+  height: 400px; /* Adjust the height proportionally to maintain the aspect ratio */
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+
+  /* background-image: url("./../../../public/historiagrafica.JPEG");
+  background-size: 300px;
+  width: 300px;
+  height: 450px;
+  border: 2px solid;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px; */
+}
+
 /* .firstContent {
   color: white;
   width: 100%;
