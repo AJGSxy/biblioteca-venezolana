@@ -1,6 +1,6 @@
 .thirdB {
   display: flex;
-  text-align: right;
+  text-align: left;
   /* align-items: center;
   justify-content: center;
   text-align: center; */
@@ -9,18 +9,14 @@
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-attachment: fixed; /* Keep the background image fixed while scrolling */
   height: calc(100vh - 115px);
-  flex-direction: column;
+  flex-direction: row;
+  align-items: end;
 }
 
 .thirdContainer {
-  display: flex;
-  flex-direction: row;
 }
 
 .titleEvents {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   color: white;
   font-family: "Source Sans 3", sans-serif;
   font-size: 45px;
@@ -30,4 +26,7 @@
   display: flex;
   color: white;
   font-family: "OldStyle 1 HPLHS";
+  padding-bottom: 60px;
+  padding-right: 500px;
+  font-size: 27px;
 }

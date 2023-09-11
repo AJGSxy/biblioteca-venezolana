@@ -3,7 +3,7 @@ import styles from "./thirdblock.module.css";
 export const ThirdBlock = () => {
   return (
     <section className={styles.thirdB}>
-      <div className={styles.thirdContainer}>
+      <div>
         <h1 className={styles.titleEvents}>Mercado Principal de Maracaibo</h1>
         <h3 className={styles.commentsEvents}>
           El viejo mercado de Maracaibo durante su construccion, realizada entre
