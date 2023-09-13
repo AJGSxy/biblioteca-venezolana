@@ -1,6 +1,6 @@
-import styles from "./thirdblock.module.css";
+import styles from "./placesblock.module.css";
 
-export const ThirdBlock = () => {
+export const PlacesBlock = () => {
   return (
     <section className={styles.thirdB}>
       <div>

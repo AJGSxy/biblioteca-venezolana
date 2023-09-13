@@ -1,0 +1,11 @@
+.fifthB {
+  display: flex;
+  text-align: left;
+  background-image: url("./../../../public/Fondo_Bloque_5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: calc(100vh - 115px);
+  flex-direction: row;
+  align-items: end;
+}

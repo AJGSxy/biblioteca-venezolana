@@ -1,0 +1,1 @@
+export { HistoricFigures } from "./HistoricFigures";

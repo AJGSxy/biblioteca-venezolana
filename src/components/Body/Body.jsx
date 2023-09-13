@@ -1,15 +1,22 @@
-import { FourthBlock } from "../FourthBlock/fourthBlock";
+import { HistoricEvents } from "../HistoricEvents";
+import { HistoricFigures } from "../HistoricFigures/HistoricFigures";
 import { Hero } from "../Hero";
-import { ThirdBlock } from "../ThirdBlock";
-import { SecondBlock } from "../secondBlock";
+import { PlacesBlock } from "../PlacesBlock";
+import { BookBlock } from "../BookBlock";
 
 export const Body = () => {
   return (
     <section>
-      {/* <Hero />
-      <SecondBlock />
-      <ThirdBlock /> */}
-      <FourthBlock />
+      <Hero />
+      <BookBlock />
+      <PlacesBlock />
+      <HistoricFigures />
+      <HistoricEvents />
+      {/* <FifthBlock title="" img="" background="" />
+      <FifthBlock title="" img="" background="" />
+      <FifthBlock title="" img="" background="" />
+      <FifthBlock title="" img="" background="" />
+      <FifthBlock title="" img="" background="" /> */}
     </section>
   );
 };

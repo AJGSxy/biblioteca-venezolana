@@ -1,0 +1,41 @@
+.secondB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./../../../public/Fondo_Bloque_2.png");
+  /* background-image: url("https://trello.com/1/cards/649007df0dfb1ff6b5d244ea/attachments/649009e58fcbbf7ae5d698d6/previews/649009e88fcbbf7ae5d69dda/download/pexels-stanislav-kondratiev-2908984.jpg"); */
+  background-size: cover; /* This will make the background image cover the entire body */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Keep the background image fixed while scrolling */
+  height: calc(100vh - 115px);
+  flex-direction: column;
+}
+.parag1 {
+  color: #9b7c52;
+  font-size: 30px;
+  font-family: "OldStyle 1 HPLHS";
+}
+
+.parag2 {
+  color: #f6e4d1;
+  font-size: 45px;
+  font-family: "OldStyle 1 HPLHS";
+}
+
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.bookCover {
+  /* background-image: url("./../../../public/cesarismodemocratico.JPEG"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 400px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+}
