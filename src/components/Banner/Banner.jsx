@@ -1,6 +1,7 @@
 import styles from "./banner.module.css";
 
-export const Banner = () => {
+export const Banner = (props) => {
+  console.log(props);
   return (
     <header className={styles.banner}>
       <span>

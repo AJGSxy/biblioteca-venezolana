@@ -1,0 +1,13 @@
+.frameCharacter {
+  background-color: black;
+  background-size: contain;
+  background-repeat: repeat;
+  width: 400px;
+  height: 600px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-image: fill;
+  border-image-source: ;
+}

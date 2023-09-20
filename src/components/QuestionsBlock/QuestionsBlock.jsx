@@ -4,11 +4,13 @@ export const QuestionsBlock = () => {
   return (
     <section className={styles.questionB}>
       <h1 className={styles.socialQuestion}>
-        Tienes alguna pregunta historica?
+        ¿Tienes alguna <br />
+        pregunta historica?
       </h1>
-      <h3 className={styles.noteQuestion}>
-        Envianosla y la tomaremos en cuenta!
-      </h3>
+      <h2 className={styles.noteQuestion}>
+        ¡Envianosla y la tomaremos en cuenta!
+      </h2>
+      <input className={styles.identityQuestion} />
     </section>
   );
 };
