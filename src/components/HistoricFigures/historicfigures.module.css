@@ -1,10 +1,14 @@
 .fourthB {
   height: calc(100vh - 115px);
   background-color: #9b7c52;
+  display: flex;
+  justify-content: flex-start;
+  background-size: contain;
+  background-repeat: repeat;
+  flex-direction: column;
 }
 
-.personContainer {
+.frameContainer {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }

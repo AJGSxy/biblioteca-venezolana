@@ -10,7 +10,7 @@ export const Body = () => {
   return (
     <section>
       <HistoricFigures />
-      <Frame />
+      {/* <Frame /> */}
       {/* <Hero /> */}
       {/* <BookBlock /> */}
       {/* <PlacesBlock />}

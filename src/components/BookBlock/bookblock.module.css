@@ -31,7 +31,7 @@
 }
 
 .bookCover {
-  /* background-image: url("./../../../public/cesarismodemocratico.JPEG"); */
+  background-image: url("./../../../public/cesarismodemocratico.JPEG");
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
