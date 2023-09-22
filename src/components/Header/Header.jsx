@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <span>BOOK LOGO</span>
-      <span className={styles.menu}>Holola</span>
+      <span className={styles.menu}>HOLA!!!</span>
     </header>
   );
 };

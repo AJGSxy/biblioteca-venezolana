@@ -6,6 +6,7 @@
   background-size: contain;
   background-repeat: repeat;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 .frameContainer {

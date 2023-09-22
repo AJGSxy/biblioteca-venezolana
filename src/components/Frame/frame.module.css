@@ -1,22 +1,30 @@
-.frameCharacter {
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  width: 200px;
-  height: 273px;
-  /* text-shadow: white 0px 0px 2px; */
-  font-size: 16px;
-  display: flex;
-  border-image: fill;
-  background-image: url("./../../../public/Marco.png");
-  padding: 25px;
-}
 .frameFather {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  /* padding-left: 100px; */
 }
+.frameCharacter {
+  background-size: 200px 293px;
+  width: 200px;
+  height: 293px;
+  display: flex;
+  border-image: fill;
+  background-image: url("./../../../public/Marco2.png");
+}
+
 .photoC {
-  background-size: contain;
+  background-size: 150px 223px;
   background-repeat: no-repeat;
-  width: inherit;
+  object-fit: contain;
+  justify-content: space-around;
+  background-position: center;
+  background-origin: content-box;
+}
+
+.nameStyle {
+  font-family: "Oldstyle 1 HPLHS";
+  color: white;
+  text-align: center;
 }

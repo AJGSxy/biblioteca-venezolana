@@ -9,7 +9,7 @@ const frames = [
     id: "0",
   },
   {
-    name: "Mario Brice;o Iragorry",
+    name: "Mario Briceño Iragorry",
     date: "(1897-1958)",
     img: "retratoMBI.png",
     id: "1",
@@ -26,12 +26,12 @@ const frames = [
     img: "retratoIMA.png",
     id: "3",
   },
-  {
-    name: "Marcos Perez Jimenez",
-    date: "(1914-2001)",
-    img: "retratoMPJ.png",
-    id: "4",
-  },
+  // {
+  //   name: "Marcos Perez Jimenez",
+  //   date: "(1914-2001)",
+  //   img: "retratoMPJ.png",
+  //   id: "4",
+  // },
 ];
 
 export const HistoricFigures = () => {

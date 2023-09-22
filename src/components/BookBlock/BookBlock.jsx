@@ -10,19 +10,17 @@ const bookImages = [
 export const BookBlock = () => {
   return (
     <section className={styles.secondB}>
-      <div>
+      <div className={styles.paragContainer}>
         <h3 className={styles.parag1}>¿No sabes por donde empezar?</h3>
 
         <h1 className={styles.parag2}>Aquí tienes algunos libros históricos</h1>
       </div>
       <div className={styles.bookContainer}>
-        {" "}
-        Hola
-        {/* \
-        {frames.map((frame, index) => {
-          return <Banner img={frame.img} footnote={frame.footnote} />;
+        {bookImages.map((bookImage, index) => {
+          return (
+            <img width={200} src={bookImage} key={index} alt={bookImage} />
+          );
         })}
-        <div className={styles.bookCover}></div> */}
       </div>
     </section>
   );
