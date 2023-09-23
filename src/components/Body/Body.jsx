@@ -11,8 +11,8 @@ export const Body = () => {
       {/* <Hero /> */}
       {/* <BookBlock /> */}
       {/* <PlacesBlock /> */}
-      <HistoricEvents />
-      {/* <HistoricFigures /> */}
+      {/* <HistoricEvents /> */}
+      <HistoricFigures />
       {/* <QuestionsBlock /> */}
     </section>
   );
