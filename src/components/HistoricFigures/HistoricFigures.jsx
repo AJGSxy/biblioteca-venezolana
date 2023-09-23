@@ -26,12 +26,12 @@ const frames = [
     img: "retratoIMA.png",
     id: "3",
   },
-  // {
-  //   name: "Marcos Perez Jimenez",
-  //   date: "(1914-2001)",
-  //   img: "retratoMPJ.png",
-  //   id: "4",
-  // },
+  {
+    name: "Marcos Perez Jimenez",
+    date: "(1914-2001)",
+    img: "retratoMPJ.png",
+    id: "4",
+  },
 ];
 
 export const HistoricFigures = () => {

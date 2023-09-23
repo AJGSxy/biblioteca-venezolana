@@ -4,7 +4,7 @@ const bookImages = [
   "cesarismodemocratico.jpeg",
   "delbuensalvaje.jpeg",
   "historiagrafica.jpeg",
-  "librorojo2.jpg",
+  "librorojo3.png",
 ];
 
 export const BookBlock = () => {

@@ -1,5 +1,6 @@
 .fourthB {
   /* height: calc(100vh - 115px); */
+  background-image: url("./../../../public/Fondo_Bloque_4.png");
   background-color: #9b7c52;
   display: flex;
   justify-content: flex-start;

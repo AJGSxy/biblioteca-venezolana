@@ -8,12 +8,12 @@ import { QuestionsBlock } from "../QuestionsBlock";
 export const Body = () => {
   return (
     <section>
-      {/* <Hero /> */}
-      {/* <BookBlock /> */}
-      {/* <PlacesBlock /> */}
-      {/* <HistoricEvents /> */}
+      <Hero />
+      <BookBlock />
+      <PlacesBlock />
+      <HistoricEvents />
       <HistoricFigures />
-      {/* <QuestionsBlock /> */}
+      <QuestionsBlock />
     </section>
   );
 };
