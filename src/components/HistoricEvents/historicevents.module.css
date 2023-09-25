@@ -6,24 +6,36 @@
   height: calc(100vh - 115px);
   position: sticky;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   flex-direction: column;
+  justify-items: center;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  position: absolute;
+  bottom: 100px;
+  right: 250px;
+  justify-content: space-around;
 }
 
 .infoContainer {
   color: white;
   font-family: "OldStyle 1 HPLHS";
   font-size: 75px;
-  border: 10px solid gray;
-  margin-bottom: 80px;
-  margin-right: -900px;
+  /* border: 10px solid gray; */
+  height: 180%;
+  text-align: right;
 }
 .clickContainer {
   font-family: "OldStyle 1 HPLHS";
-  font-size: 45px;
+  font-size: 35px;
   color: white;
   background-color: #9b7c52;
   border-radius: 25px;
-  margin-right: -900px;
+  text-align: center;
+  &:hover {
+    background-color: #736144;
+    cursor: pointer;
+  }
 }
