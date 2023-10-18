@@ -13,7 +13,7 @@ export const QuestionsBlock = () => {
       <input
         className={styles.identityQuestion}
         type="text"
-        placeholder="Nombre y apellido"
+        placeholder="Nombre y apellidÒ"
       />
 
       <input className={styles.anonymousBox} type="checkbox" />
